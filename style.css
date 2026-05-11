@@ -1,0 +1,1004 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+}
+
+.bgclr {
+    background-color: black;
+}
+
+.bgimg {
+    background-image: url(Fbgimg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 80%;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+.one .logo{
+    width: 44%;
+    height:87%;
+}
+
+.two .nav-links li {
+    display: inline;
+}
+
+.two .nav-links li a {
+    color: white;
+    font-size: 20px;
+    padding-right: 30px;
+    text-decoration: none;
+} 
+
+.two .nav-links li a:hover {
+    color: orange;
+}
+
+.three .nav-links li {
+    display: inline;
+}
+
+.three .nav-links li a {
+    color: white;
+    font-size: 25px;
+    padding-top: 60px;
+    padding-left: 30px;
+    gap: 40px;
+}
+
+.three .nav-links li a:hover {
+    color: orange;
+}
+
+.part1 {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+}
+
+.part1 h3 {
+    text-align: center;
+    color: darkorange;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.part1 h1 {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 50px;
+    font-size: 70px;
+}
+
+
+.part1 .btn1 {
+    color: white;
+    background-color: orange;
+    border: none;
+    padding: 20px 40px;
+    border-radius: 50px;
+    margin-right: 15px;
+}
+
+.part1 .btn1:hover {
+    color: orange;
+    background-color: black;
+    text-align: center;
+}
+
+.part1 .btn2 {
+    color: black;
+    padding: 20px 40px;
+    border-radius: 50px;
+    border: 1px solid orange;
+}
+
+.part1 .btn2:hover {
+    color: orange;
+    background-color: black;
+    text-align: center;
+}
+
+.bg2 {
+    background-color: whitesmoke;
+}
+
+.part2 {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 5px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    
+}
+
+.label1 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.sect1 i {
+    font-size: 30px;
+    border: 5px dotted orange;
+    border-radius: 50px;
+    color: orange;
+    padding: 20px;
+}
+
+.label2 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.sect3 i {
+    font-size: 30px;
+    border: 5px dotted orange;
+    border-radius: 50px;
+    color: orange;
+    padding: 20px;
+}
+
+.label3 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.sect5 i {
+    font-size: 30px;
+    border: 5px dotted orange;
+    border-radius: 50px;
+    color: orange;
+    padding: 20px;
+}
+
+.section {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+
+.part3 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.part3 h1 {
+      text-align: center;
+}
+
+.part3 p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.sector1 {
+    border: 4px solid whitesmoke;
+    text-align: center;
+}
+
+.sector1:hover {
+    border: 3px solid white;
+}
+
+
+.sector1 img {
+    width: 300px;
+    border-radius: 20px;
+}
+
+.sector1 .btn3 {
+    border-radius: 50px;
+    padding: 10px 20px;
+    color: white;
+    background-color: orange;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.sector1 .btn3:hover {
+    background-color: black;
+    color: orange;
+}
+
+
+
+.sector2 {
+    border: 4px solid whitesmoke;
+    text-align: center;
+}
+
+.sector2:hover {
+    border: 4px solid white;
+}
+
+.sector2 img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.sector2 .btn4 {
+    border-radius: 50px;
+    padding: 10px 20px;
+    color: white;
+    background-color: orange;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.sector2 .btn4:hover {
+    color: orange;
+    background-color: black;
+}
+
+.sector2 i {
+    text-align: center;
+    
+}
+
+.sector3 {
+    border: 4px solid whitesmoke;
+    text-align: center;
+}
+
+.sector3:hover {
+    border: 3px solid white;
+}
+
+.sector3 img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.sector3 .btn5 {
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: white;
+    background-color: orange;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.sector3 .btn5:hover {
+    color: orange;
+    background-color: black;
+}
+
+
+
+.bg3 {
+    background-color: whitesmoke;
+}
+
+.part4 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.king1 img {
+    width: 500px;
+}
+
+.part4 .king1 {
+    position: relative;
+}
+
+.child {
+    position: absolute;
+    left: 30px;
+    top: 0;
+    background-color: orange;
+    padding: 19px;
+    border-radius: 50px;
+    outline: 3px solid orangered;
+    outline-offset: -7px;
+    text-align: center;
+    height: 66px;
+    line-height: 30px;
+}
+
+.king2 {
+    text-align: left;
+}
+
+.king2 h1 {
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
+.king2 h1 span {
+    color: orange;
+}
+
+
+
+.king2 .btn6 {
+    color: white;
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+}
+
+.king2 .btn6:hover {
+    color: orange;
+    background-color: black;
+}
+
+.king3 {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 5px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.king3 .box1 {
+    text-align: center;
+    border: 3px solid orange;
+    margin: 20px;
+    padding: 17px 27px;
+}
+
+.king3 .box2 {
+    text-align: center;
+    border: 3px solid orange;
+    margin: 20px;
+    padding: 17px 27px;
+}
+
+.king3 .box3 {
+    text-align: center;
+    border: 3px solid orange;
+    margin: 20px;
+    padding: 17px 27px;
+}
+
+.king3 .box4 {
+    text-align: center;
+    border: 3px solid orange;
+    margin: 20px;
+    padding: 17px 27px;
+
+}
+
+.clients {
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+}
+
+.client1 img {
+    padding: 20px;
+    height: 111px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.client1 h1 {
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.client1 p {
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: grey;
+}
+
+.client1 i {
+    font-size: 30px;
+    color: grey;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.part5 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+    padding-bottom: 90px;
+    padding-top: 90px;
+    width: 100%;
+}
+
+.side1 img {
+    width: 430px;
+    height: 450px;
+}
+
+.side2 h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.side2 h1 {
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
+.side2 h1 span {
+    color: orange;
+}
+
+.side2 p {
+    padding-top: 30px;
+    line-height: 30px;
+}
+
+.side2 button {
+    color: white;
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.side2 button:hover {
+    color: orange;
+    background-color: black;
+}
+
+.bgimg2 {
+    background-image: url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+
+.part6 h1{
+       font-size: 55px;
+       font-weight: bold;
+       padding-bottom: 20px;
+}
+.part6 h1 span {
+    color: orange;
+}
+
+.part6 p {
+    font-size: 30px;
+}
+
+.part6 p span {
+    font-size: 55px;
+    color: orange;
+}
+
+.part6 button {
+    color: white;
+    background-color: orange;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.part6 button:hover {
+    color: orange;
+    background-color: black;
+}
+
+.part7 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.part7 h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.part7 h4 {
+    text-align: center;
+    color: darkgrey;
+     margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.part7 p {
+    text-align: left;
+}
+
+.PHASE {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 20px;
+}
+
+
+.RM {
+    color: black;
+    font-weight: bold;
+}
+
+.RM:hover {
+    color: orange;
+}
+
+.PHASEONE {
+    text-align: left;
+    border: 4px solid whitesmoke;
+    border-radius: 20px;
+}
+
+.PHASEONE:hover {
+    border: 4px solid white;
+}
+
+.phase1 img {
+    width: 390px;
+    border-radius: 10px;
+}
+
+.phase2 {
+    padding-left: 10px;
+}
+
+.phase2 h2 {
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.phase2 p {
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+.PHASETWO {
+    text-align: left;
+    gap: 40px;
+    border: 4px solid whitesmoke;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.PHASETWO:hover {
+    border: 4px solid white;
+}
+
+.phase4 h2 {
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.phase4 p {
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+.phase3 img {
+    width: 390px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.phase4 {
+    padding-left: 10px;
+}
+
+.PHASETHREE {
+    text-align: left;
+    gap: 40px;
+    border: 4px solid whitesmoke;
+    border-radius: 20px;
+}
+
+.PHASETHREE:hover {
+    border: 4px solid white;
+}
+
+.phase5 img {
+    width: 390px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.phase6 {
+    padding-left: 10px;
+}
+
+.phase6 h2 {
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+   
+.phase6 p {
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+.PHASEONE .phase2 a {
+      text-decoration: none;
+      color: black;
+    }
+
+    .PHASETWO .phase4 a {
+      text-decoration: none;
+      color: black;
+    }
+
+    .PHASETHREE .phase6 a {
+      text-decoration: none;
+      color: black;
+    }
+
+    .PHASEONE .phase2 a:hover {
+      color: orange;
+    }
+
+    .PHASEONE .phase4 a:hover {
+      color: orange;
+    }
+
+    .PHASEONE .phase6 a:hover {
+      color: orange;
+    }
+
+.part7 .MN {
+    color: white;
+    background-color: orange;
+    border: none;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 564px;
+}
+
+.part7 .MN:hover {
+    color: orange;
+    background-color: black;
+}
+
+.logoclr {
+    background-color: whitesmoke;
+    text-align: center;
+    gap: 50px;
+}
+
+.part8 {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+
+
+.bgclrB {
+    background-color: black;
+}
+
+.part9 {
+    color: white;
+    text-align: left;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.lav {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 20px;
+}
+ 
+.lav h1 {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.lav1 {
+    line-height: 25px;
+}
+
+.lav2 {
+    line-height: 25px;
+}
+
+.lav2 a {
+    color: white;
+    text-decoration: none;
+}
+.lav3 {
+    line-height: 25px;
+}
+
+.lav .lav3 li {
+    display: block;
+}
+
+.lav3 li a i {
+    color: orange;
+}
+
+.lav3 li a {
+    color: white;
+    text-decoration: none;
+}
+
+.lav3 li a:hover {
+    color: orange;
+}
+
+.lav4 {
+    line-height: 25px;
+}
+
+.lav4 input[type="text"] {
+    width: 60%;
+    padding: 15px;
+    background-color: rgb(63, 60, 60);
+    border: none;
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+
+.part9 .lav4 i {
+    width: 39%;
+    background-color: rgb(63, 60, 60);
+    color: orange;
+    padding: 14px 0;
+    padding-top: 25px;
+    padding-bottom: 3px;
+}
+
+.part10 {
+      display: grid;
+      grid-template-columns: 50% 50%;
+      padding: 40px;
+}
+
+.footerclr {
+    background-color: black;
+    border-top: 1px solid grey;
+
+}
+
+.left {
+    color: white;
+}
+
+.left span {
+    color: orange;
+}
+
+.right a{
+    color: white;
+    font-size: 30px;
+    text-align: right;
+}
+
+.right a:hover {
+    color: orange;
+}
+
+@media screen and (min-width:320px) and (max-width:460px){
+    .navbar {
+        display: block;
+    }
+    .two .nav-links li {
+        display: none;
+    }
+    .three .nav-links li {
+        display: none;
+    }
+
+    .part1 {
+        padding-bottom: 150px;
+        padding-top: 150px;
+    }
+
+    .part1 h1 {
+        font-size: 20px;
+    }
+
+    .part2 {
+        display: block;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .label1 {
+        margin-bottom: 30px;
+    }
+
+    .label2 {
+        margin-bottom: 30px;
+    }
+
+    .label3 {
+        margin-bottom: 30px;
+    }
+    
+    .section {
+        display: block;
+    }
+    
+    .sector1 {
+        margin-bottom: 20px;
+    }
+
+    .sector2 {
+        margin-bottom: 20px;
+    }
+
+    .sector3 {
+        margin-bottom: 20px;
+    }
+
+
+    .part3 p {
+        line-height: 20px;
+    }
+
+    .part4 {
+        display: block;
+    }
+
+    .king2 p {
+         line-height: 20px;
+    }
+
+    .king3 h3, p {
+        text-align: center;
+    }
+
+    .king2 {
+        text-align: center;
+    }
+
+    .king3 .box1 {
+        padding: 16px 34px;
+    }
+
+    .king3 .box2 {
+        padding: 16px 34px;
+    }
+
+    .king3 .box3 {
+        padding: 16px 34px;
+    }
+
+    .king3 .box4 {
+        padding: 16px 34px;
+    }
+
+    .part5 {
+        display: block;
+    }
+
+    .side2 {
+        text-align: center;
+    }
+
+    .part6 h1 {
+        font-size: 30px;
+    }
+    .part6 p {
+        font-size: 20px;
+    }
+
+    .PHASE {
+        display: block;
+    }
+
+   .PHASEONE {
+    margin-bottom: 20px;
+   }
+
+   .PHASETWO {
+    margin-bottom: 20px;
+   }
+
+   .PHASETHREE {
+    margin-bottom: 20px;
+   }
+    .phase1 img {
+    width: 350px;
+    border-radius: 20px 20px 0px 0px;
+    }
+    
+   .PHASEONE .phase2 a {
+      text-decoration: none;
+      color: black;
+    }
+
+    .phase3 img {
+    width: 350px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.PHASETWO .phase4 a {
+    text-decoration: none;
+    color: black;
+}
+
+.PHASETHREE .phase6 a {
+    text-decoration: none;
+    color: black;
+}
+
+.PHASEONE .phase2 a:hover {
+      color: orange;
+    }
+
+    .PHASEONE .phase4 a:hover {
+      color: orange;
+    }
+
+    .PHASEONE .phase6 a:hover {
+      color: orange;
+    }
+
+
+.phase5 img {
+    width: 350px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+
+    .part8 {
+        display: block;
+    }
+
+    .lav {
+        display: block;
+    }
+
+    .part9 {
+        text-align: left;
+    }
+
+    .part9 p {
+        text-align: left;
+    }
+
+    .part10 {
+        display: block;
+    }
+
+    .part10 .left {
+        margin-top: 10px;
+    }
+
+    .part10 .right a{
+    color: white;
+    font-size: 37px;
+    margin-top: 20px;
+}
+
+.right a:hover {
+    color: orange;
+}
+
+    footer {
+        text-align: center;
+    }
+}
