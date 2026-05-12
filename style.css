@@ -313,7 +313,7 @@
     left: 30px;
     top: 0;
     background-color: orange;
-    padding: 12px;
+    padding: 18px 15px;
     border-radius: 50px;
     outline: 3px solid orangered;
     outline-offset: -7px;
@@ -880,34 +880,48 @@
         width: 100%;
     }
 
-    .king2 p {
-         line-height: 25px;
-         padding-top: 10px;
-    }
+   .king3 .box1 {
+    text-align: center;
+    border: 3px solid orange;
+    width: 15%;
+    height: 30%;
+    padding: 25px;
+    margin: 10px;
+   }
 
-    .king3 h3, p {
-        text-align: center;
-    }
+   .king3 .box2 {
+    text-align: center;
+    border: 3px solid orange;
+    width: 15%;
+    height: 30%;
+    padding: 25px;
+    margin: 10px;
+   }
+
+   .king3 .box3 {
+    text-align: center;
+    border: 3px solid orange;
+    width: 23%;
+    height: 30%;
+    padding: 25px;
+    margin: 10px;
+   }
+
+   .king3 .box4 {
+    text-align: center;
+    border: 3px solid orange;
+    width: 15%;
+    height: 30%;
+    padding: 25px;
+    margin: 10px;
+   }
+
 
     .king2 {
         text-align: center;
     }
 
-    .king3 .box1 {
-        padding: 16px 34px;
-    }
-
-    .king3 .box2 {
-        padding: 16px 34px;
-    }
-
-    .king3 .box3 {
-        padding: 16px 34px;
-    }
-
-    .king3 .box4 {
-        padding: 16px 34px;
-    }
+   
 
     .part5 {
         display: block;
@@ -992,6 +1006,7 @@
 
 .part7 .MN {
     text-align: center;
+    margin: 0;
 }
 
     .part8 {
