@@ -170,6 +170,7 @@
 
 .part2 p {
     text-align: left;
+    padding-top: 10px;
 }
 
 .section {
@@ -312,12 +313,11 @@
     left: 30px;
     top: 0;
     background-color: orange;
-    padding: 14px;
+    padding: 12px;
     border-radius: 50px;
     outline: 3px solid orangered;
     outline-offset: -7px;
     text-align: center;
-    height: 66px;
     line-height: 30px;
 }
 
@@ -876,6 +876,10 @@
         display: block;
     }
 
+    .king1 img {
+        width: 100%;
+    }
+
     .king2 p {
          line-height: 25px;
          padding-top: 10px;
@@ -1014,9 +1018,9 @@
         margin-top: 10px;
     }
 
-    .part10 .right a{
+    .part10 .right a i{
     color: white;
-    font-size: 30px;
+    font-size: 20px;
     margin-top: 20px;
 }
 
