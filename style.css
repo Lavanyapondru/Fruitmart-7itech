@@ -168,6 +168,10 @@
     padding: 20px;
 }
 
+.part2 p {
+    text-align: left;
+}
+
 .section {
     display: flex;
     justify-content: space-evenly;
@@ -308,7 +312,7 @@
     left: 30px;
     top: 0;
     background-color: orange;
-    padding: 19px;
+    padding: 14px;
     border-radius: 50px;
     outline: 3px solid orangered;
     outline-offset: -7px;
@@ -319,6 +323,11 @@
 
 .king2 {
     text-align: left;
+}
+
+.king2 p {
+    line-height: 2opx;
+    padding-top: 10px;
 }
 
 .king2 h1 {
@@ -392,7 +401,7 @@
 .client1 img {
     padding: 20px;
     height: 111px;
-    width: 100px;
+    width: 110px;
     border-radius: 50%;
 }
 
@@ -468,7 +477,6 @@
     background-image: url(1.jpg);
     background-position: center;
     background-size: cover;
-    height: 400px;
 }
 
 .part6 h1{
@@ -819,11 +827,17 @@
         font-size: 20px;
     }
 
+    .part1 .btn1 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
     .part2 {
         display: block;
         padding-top: 100px;
         padding-bottom: 100px;
     }
+
 
     .label1 {
         margin-bottom: 30px;
@@ -863,7 +877,8 @@
     }
 
     .king2 p {
-         line-height: 20px;
+         line-height: 25px;
+         padding-top: 10px;
     }
 
     .king3 h3, p {
@@ -894,6 +909,10 @@
         display: block;
     }
 
+    .side1 img {
+        width: 100%;
+    }
+
     .side2 {
         text-align: center;
     }
@@ -903,6 +922,10 @@
     }
     .part6 p {
         font-size: 20px;
+    }
+
+    .part6 .bgimg2 {
+        width: 100%;
     }
 
     .PHASE {
@@ -921,7 +944,7 @@
     margin-bottom: 20px;
    }
     .phase1 img {
-    width: 350px;
+    width: 100%;
     border-radius: 20px 20px 0px 0px;
     }
     
@@ -931,7 +954,7 @@
     }
 
     .phase3 img {
-    width: 350px;
+    width: 100%;
     border-radius: 20px 20px 0px 0px;
 }
 
@@ -959,10 +982,13 @@
 
 
 .phase5 img {
-    width: 350px;
+    width: 100%;
     border-radius: 20px 20px 0px 0px;
 }
 
+.part7 .MN {
+    text-align: center;
+}
 
     .part8 {
         display: block;
@@ -990,7 +1016,7 @@
 
     .part10 .right a{
     color: white;
-    font-size: 37px;
+    font-size: 30px;
     margin-top: 20px;
 }
 
